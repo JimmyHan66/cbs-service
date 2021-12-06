@@ -1,0 +1,17 @@
+.titleC{width: 100%;height: 8rem;background: url(../../static/images/stock2.jpg) no-repeat;background-size:cover;}
+.titleC p{text-align: center;font-size: 1.3rem;font-weight: 600;line-height: 8rem;color: #474a4d;font-family:'NSimSun'}
+/* .chart{
+    max-height: 18rem;
+} */
+#chart_example{
+    width: 100%;
+    height: 15rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+  }
+  #chart_Cumulative{
+    width: 100%;
+    height: 15rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+  }

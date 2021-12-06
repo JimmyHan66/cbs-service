@@ -1,0 +1,44 @@
+.box{overflow: hidden;}
+/* 标题 */
+.title{width: 100%;height: 16rem;background: url(../../static/images/stock2.jpg) no-repeat;background-size:cover;}
+.title p{text-align: center;font-size: 1.3rem;font-weight: 600;line-height: 7rem;color: #474a4d;font-family:'NSimSun'}
+/* .title img{height: 4rem;} */
+/* 查询 */
+.searchDiv{display: flex;justify-content:center;margin-bottom: 0.5rem;overflow: hidden;}
+/* .searchCon{display: flex;justify-content: space-between;align-items: center;margin-right: 0.5rem;padding-top: 0.5rem;font-size: 13px;}
+.searchCon>div:nth-child(1){max-width: 2rem;} */
+.searchBtn{display: flex;flex-direction: column;justify-content: center;padding-top: 1rem;margin-left: 0.3rem;}
+.icon-chaxun{font-size: 3rem;color: #ba2636;}
+.searchShadow{background: #e0e0e0;height:0.3rem;width: 100% ;}
+
+
+/* 分页 */
+.pagination{display: flex;justify-content:center;}
+.el-pagination{width: 100%;overflow: hidden;padding: 2px 0px;}
+
+/* 客户信息展示 */
+.msgShowDiv{height: 30.5rem;width: 100%;background:url(../../static/images/money2.jpg) no-repeat;background-size:cover;opacity: 0.3;position:absolute;top: 17rem;z-index: -1;}
+.msgShow ul{margin: 0 1rem;}
+.msgShow .msgShowTitle{display: flex;justify-content:space-between;align-items: center;border-bottom: solid 1px #eeeeee;color: black;}
+.msgShowTitle>div:nth-child(2){width: 10rem;text-align: center;}
+.msgShowTitle>div:nth-child(1){width: 2rem;text-align: center;}
+.msgShowTitle>div:nth-child(3){width: 3rem;text-align: right;}
+.msgShow li a{display: flex;justify-content:space-between;align-items: center;border-bottom: solid 1px #eeeeee;color: black;}
+/* .msgShow li:nth-child(1){justify-content:safe} */
+.msgShow .nameLi{width: 10rem;display: flex;flex-direction: column;justify-content:left;align-items: center;}
+.msgShow .nameLi div{font-size: 16px;font-weight:500; white-space:nowrap;
+    text-overflow:ellipsis;overflow: hidden;max-width: 10rem;}
+.msgShow .nameLi p{font-size: 12px;color: #757575;font-weight: lighter;}
+.scoreLi{width: 3rem;text-align: right;color: #161823;font-size: 15px;}
+.rankLi,.iconLi{width:2rem ;text-align: center;}
+.rankLi{font-size: 20px;color: #161823;}
+/* 奖杯 */
+.firstLi span{
+    color: #b71c1c;font-size: 30px;
+}
+.secondLi span{
+    color: #e57373;font-size: 30px;
+}
+.thirdLi span{
+    color: #ef9a9a;font-size: 30px;
+}

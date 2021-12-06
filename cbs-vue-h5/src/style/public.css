@@ -1,0 +1,90 @@
+@charset "utf-8";
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+form,
+img,
+table,
+fieldset,
+legend,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+u,
+a {
+  text-decoration: none;
+  color: black;
+}
+i,
+em {
+  font-style: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+img {
+  border: none;
+  display: block;
+}
+input {
+  outline: none;
+}
+
+/* 自己封装 */
+
+/* 左浮动 */
+.zf_d {
+  float: left;
+}
+/* 右浮动 */
+.yf_d {
+  float: right;
+}
+/* 文本溢出隐藏 */
+.wbycy_c {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* 高度塌陷 */
+.gdtx:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
